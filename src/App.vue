@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <RestaurantRow/>
+    <HomePage/>
   </div>
 </template>
 
 <script>
-import RestaurantRow from './components/RestaurantRow.vue'
+import HomePage from './page/home.vue'
 export default {
   name: 'App',
   components: {
-    RestaurantRow
+    HomePage,
   }
 }
 </script>
